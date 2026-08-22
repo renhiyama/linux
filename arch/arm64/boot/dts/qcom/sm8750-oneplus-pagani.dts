@@ -820,9 +820,6 @@
 	status = "okay";
 };
 
-/*
-WIP: ADD GPU support
-
 &gpu {
 	status = "okay";
 };
@@ -835,15 +832,13 @@ WIP: ADD GPU support
 	status = "okay";
 };
 
-&gxcc {
+&gxclkctl {
 	status = "okay";
 };
 
 &adreno_smmu {
 	status = "okay";
 };
-
-*/
 
 &mdss_dsi0 {
 	vdda-supply = <&pm_v8g_l3>;
